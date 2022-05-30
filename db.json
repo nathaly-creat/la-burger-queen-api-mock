@@ -11,7 +11,7 @@
             "id": 1,
             "name": "Sandwich de jamón y queso",
             "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+            "image": "https://i.imgur.com/qgsA9QU.png",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
@@ -22,14 +22,16 @@
             "id": 2,
             "name": "Café americano",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "image": "https://i.imgur.com/EJkIF0e.png",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
         }
       ],
       "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
+      "cooked": false,
+      "dateEntry": "2022-03-05 15:00:25",
+      "totalPrice": 1500
     },
     {
       "id": 2,
@@ -42,7 +44,7 @@
             "id": 2,
             "name": "Café americano",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "image": "https://i.imgur.com/EJkIF0e.png",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
@@ -50,18 +52,87 @@
         {
           "qty": 1,
           "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+            "id": 4,
+            "name": "Hamburguesa",
+            "price": 3000,
+            "image": "https://i.imgur.com/ZewfChk.png",
             "type": "Almuerzo",
+            "dateEntry": "2022-19-05 17:14:14"
+          }
+        }
+      ],
+      "status": "delivered",
+      "cooked": true,
+      "dateEntry": "2022-03-05 15:00:36",
+      "dateProcessed": "2022-03-05 16:00:45",
+      "totalPrice": 4000
+    },
+    {
+      "userId": 3,
+      "client": "Camila Herrera",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 4,
+            "name": "Hamburguesa",
+            "price": 3000,
+            "image": "https://i.imgur.com/ZewfChk.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-05-19 17:14:14"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 1000,
+            "image": "https://i.imgur.com/qgsA9QU.png",
+            "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
         }
       ],
       "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "cooked": true,
+      "dateEntry": "2022-05-30 13:27:33",
+      "totalPrice": 5000,
+      "id": 3,
+      "dateProcessed": "2022-05-30 15:27:13"
+    },
+    {
+      "userId": 3,
+      "client": "Laura Camargo",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 800,
+            "image": "https://i.imgur.com/pKoiz7T.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 4,
+            "name": "Hamburguesa",
+            "price": 3000,
+            "image": "https://i.imgur.com/ZewfChk.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-05-19 17:14:14"
+          }
+        }
+      ],
+      "status": "pending",
+      "cooked": false,
+      "dateEntry": "2022-05-30 16:10:56",
+      "totalPrice": 6800,
+      "id": 4
     }
   ],
   "products": [
@@ -69,7 +140,7 @@
       "id": 1,
       "name": "Sandwich de jamón y queso",
       "price": 1000,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "image": "https://i.imgur.com/qgsA9QU.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -77,17 +148,25 @@
       "id": 2,
       "name": "Café americano",
       "price": 500,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+      "image": "https://i.imgur.com/EJkIF0e.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "name": "Papas",
+      "price": 800,
+      "image": "https://i.imgur.com/pKoiz7T.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 4,
+      "name": "Hamburguesa",
+      "price": 3000,
+      "image": "https://i.imgur.com/ZewfChk.png",
+      "type": "Almuerzo",
+      "dateEntry": "2022-05-19 17:14:14"
     }
   ],
   "users": [
@@ -106,6 +185,30 @@
         "admin": true
       },
       "id": 2
+    },
+    {
+      "email": "mesero.hopper@systers.xyz",
+      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "roles": {
+        "waiter": true
+      },
+      "id": 3
+    },
+    {
+      "email": "chef.hopper@systers.xyz",
+      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "roles": {
+        "kitchen": true
+      },
+      "id": 4
+    },
+    {
+      "email": "mesero2.hopper@systers.xyz",
+      "password": "$2a$10$d57bUwx5gpSaJpvH8HubA.m73DPE6OaSrTdsT2g3izsvZ0/ku.hwe",
+      "roles": {
+        "waiter": true
+      },
+      "id": 5
     }
   ]
 }

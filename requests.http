@@ -1,28 +1,99 @@
+// REQUEST INICIAR SESION
 POST http://localhost:8080/login HTTP/1.1
 content-type: application/json
 
 {
-    "email": "grace.hopper@systers.xyz",
+    "email": "mesero.hopper@systers.xyz",
     "password": "123456"
 }
 
+// REQUEST PARA VISUALIZAR USUARIOS
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzQ2MzEsImV4cCI6MTY1MzkzODIzMSwic3ViIjoiMSJ9.tghWcoRY0lGO4XcabVMIqkbce_irrJcj56Rc9hrlXB0
 
+// REQUEST PARA CREAR USUARIO
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzQ2MzEsImV4cCI6MTY1MzkzODIzMSwic3ViIjoiMSJ9.tghWcoRY0lGO4XcabVMIqkbce_irrJcj56Rc9hrlXB0
+
+{
+  "email": "mesero2.hopper@systers.xyz",
+  "password": "123456",
+  "roles": {
+    "waiter": true
+  }
+}
+
+// REQUEST PARA VISUALIZAR PRODUCTOS
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzQ2MzEsImV4cCI6MTY1MzkzODIzMSwic3ViIjoiMSJ9.tghWcoRY0lGO4XcabVMIqkbce_irrJcj56Rc9hrlXB0
 
+// REQUEST PARA VISUALIZAR UN SOLO PRODUCTO
+GET http://localhost:8080/products/1 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzQ2MzEsImV4cCI6MTY1MzkzODIzMSwic3ViIjoiMSJ9.tghWcoRY0lGO4XcabVMIqkbce_irrJcj56Rc9hrlXB0
+
+// REQUEST PARA CREAR UN PRODUCTO NUEVO
+POST  http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzQ2MzEsImV4cCI6MTY1MzkzODIzMSwic3ViIjoiMSJ9.tghWcoRY0lGO4XcabVMIqkbce_irrJcj56Rc9hrlXB0
+
+{   
+    "userId": "1",
+    "name": "Papas",
+    "price": 500,
+    "image": "https://i.imgur.com/pKoiz7T.png",
+    "type": "Almuerzo"
+}
+
+// REQUEST PARA VISUALIZAR ORDENES
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzUwNTMsImV4cCI6MTY1MzkzODY1Mywic3ViIjoiMSJ9.-sX7aksueCD-vvfnA3oLjF-I1nM_Il48aWSFyuNtl5Y
 
-PATCH http://localhost:8080/orders/2 HTTP/1.1
+// REQUEST PARA CREAR UNA ORDEN
+POST http://localhost:8080/orders HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzNDAzNSwiZXhwIjoxNjUwMjM3NjM1LCJzdWIiOiIyIn0.q6lDwW_wyK6-8-lUyiLUwnoowRLsvuFblu1yufkaa_Q
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzUwNTMsImV4cCI6MTY1MzkzODY1Mywic3ViIjoiMSJ9.-sX7aksueCD-vvfnA3oLjF-I1nM_Il48aWSFyuNtl5Y
+
+{
+  "userId": 3,
+  "client": "Carol Shaw",
+  "products": [
+    {
+      "qty": 5,
+      "product": {
+        "id": 1214,
+        "name": "Sandwich de jamón y queso",
+        "price": 1000,
+        "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+        "type": "Desayuno",
+        "dateEntry": "2022-03-05 15:14:10"
+      }
+    }
+  ],
+  "status": "pending",
+  "dataEntry": "2022-26-05 21:00"
+}
+
+// REQUEST PARA MODIFICAR ESTATUS DE UNA ORDEN POR PARTE DEL CHEF
+PATCH http://localhost:8080/orders/3 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWYuaG9wcGVyQHN5c3RlcnMueHl6IiwiaWF0IjoxNjUzOTM2MjA0LCJleHAiOjE2NTM5Mzk4MDQsInN1YiI6IjQifQ.zut7rDR5iRS-J55K10B7bWuAPc4NPmcBhX43RxZdQBs
+
+{
+    "status": "",
+    "cooked": true
+}
+
+// REQUEST PARA MODIFICAR ESTATUS DE UNA ORDEN
+PATCH http://localhost:8080/orders/3 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc2Vyby5ob3BwZXJAc3lzdGVycy54eXoiLCJpYXQiOjE2NTM5MzYyNDUsImV4cCI6MTY1MzkzOTg0NSwic3ViIjoiMyJ9.dqNSQMuqANDOOUg94Y-pMlpP0JU6vK8EGcxZAQE0CgU
 
 {
     "status": "delivered",
-    "dateProcessed": "2022-03-05 16:00"
+    "dateProcessed": "2022-30-05 15:27:33"
 }
