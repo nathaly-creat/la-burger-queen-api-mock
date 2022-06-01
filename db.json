@@ -152,11 +152,12 @@
           }
         }
       ],
-      "status": "",
+      "status": "delivered",
       "cooked": true,
       "dateEntry": "2022-05-30 19:36:41",
       "totalPrice": 3000,
-      "id": 5
+      "id": 5,
+      "dateProcessed": "2022-05-31 17:37:19"
     },
     {
       "userId": 3,
@@ -185,11 +186,67 @@
           }
         }
       ],
-      "status": "pending",
-      "cooked": false,
+      "status": "delivered",
+      "cooked": true,
       "dateEntry": "2022-05-30 19:42:32",
       "totalPrice": 5000,
-      "id": 6
+      "id": 6,
+      "dateProcessed": "2022-05-31 19:23:21"
+    },
+    {
+      "userId": 3,
+      "client": "Angelina",
+      "products": [
+        {
+          "qty": 3,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 500,
+            "image": "https://i.imgur.com/EJkIF0e.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "",
+      "cooked": true,
+      "dateEntry": "2022-05-31 17:36:19",
+      "totalPrice": 1500,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "client": "Madonna",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 800,
+            "image": "https://i.imgur.com/pKoiz7T.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 4,
+            "name": "Hamburguesa",
+            "price": 3000,
+            "image": "https://i.imgur.com/ZewfChk.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-05-19 17:14:14"
+          }
+        }
+      ],
+      "status": "pending",
+      "cooked": false,
+      "dateEntry": "2022-05-31 19:22:06",
+      "totalPrice": 3800,
+      "id": 8
     }
   ],
   "products": [
