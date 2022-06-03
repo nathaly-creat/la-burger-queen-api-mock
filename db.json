@@ -168,6 +168,28 @@
       "totalPrice": 3500,
       "id": 5,
       "dateProcessed": "2022-06-01 13:01:46"
+    },
+    {
+      "userId": 3,
+      "client": "Nathaly",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 1000,
+            "image": "https://i.imgur.com/qgsA9QU.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "cooked": false,
+      "dateEntry": "2022-06-01 17:07:33",
+      "totalPrice": 2000,
+      "id": 6
     }
   ],
   "products": [
