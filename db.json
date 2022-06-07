@@ -29,7 +29,6 @@
         }
       ],
       "status": "delivered",
-      "cooked": true,
       "dateEntry": "2022-05-30 16:59:25",
       "totalPrice": 1500,
       "dateProcessed": "2022-05-30 17:47:09"
@@ -63,133 +62,9 @@
         }
       ],
       "status": "delivered",
-      "cooked": true,
       "dateEntry": "2022-05-31 15:00:36",
       "dateProcessed": "2022-05-31 16:00:45",
       "totalPrice": 4000
-    },
-    {
-      "userId": 3,
-      "client": "J balvin",
-      "products": [
-        {
-          "qty": 5,
-          "product": {
-            "id": 3,
-            "name": "Papas",
-            "price": 800,
-            "image": "https://i.imgur.com/pKoiz7T.png",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 4,
-          "product": {
-            "id": 4,
-            "name": "Hamburguesa",
-            "price": 3000,
-            "image": "https://i.imgur.com/ZewfChk.png",
-            "type": "Almuerzo",
-            "dateEntry": "2022-05-19 17:14:14"
-          }
-        }
-      ],
-      "status": "delivered",
-      "cooked": true,
-      "dateEntry": "2022-06-01 11:50:51",
-      "totalPrice": 16000,
-      "id": 3,
-      "dateProcessed": "2022-06-01 13:01:48"
-    },
-    {
-      "userId": 3,
-      "client": "Karol g",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://i.imgur.com/EJkIF0e.png",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 2,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://i.imgur.com/qgsA9QU.png",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "cooked": false,
-      "dateEntry": "2022-06-01 11:51:17",
-      "totalPrice": 3000,
-      "id": 4
-    },
-    {
-      "userId": 3,
-      "client": "Melendi",
-      "products": [
-        {
-          "qty": 3,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://i.imgur.com/qgsA9QU.png",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://i.imgur.com/EJkIF0e.png",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "delivered",
-      "cooked": true,
-      "dateEntry": "2022-06-01 13:00:37",
-      "totalPrice": 3500,
-      "id": 5,
-      "dateProcessed": "2022-06-01 13:01:46"
-    },
-    {
-      "userId": 3,
-      "client": "Nathaly",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://i.imgur.com/qgsA9QU.png",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "cooked": false,
-      "dateEntry": "2022-06-01 17:07:33",
-      "totalPrice": 2000,
-      "id": 6
     }
   ],
   "products": [
@@ -197,7 +72,7 @@
       "id": 1,
       "name": "Sandwich de jamón y queso",
       "price": 1000,
-      "image": "https://i.imgur.com/qgsA9QU.png",
+      "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -205,7 +80,7 @@
       "id": 2,
       "name": "Café americano",
       "price": 500,
-      "image": "https://i.imgur.com/EJkIF0e.png",
+      "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -213,7 +88,7 @@
       "id": 3,
       "name": "Papas",
       "price": 800,
-      "image": "https://i.imgur.com/pKoiz7T.png",
+      "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -221,7 +96,7 @@
       "id": 4,
       "name": "Hamburguesa",
       "price": 3000,
-      "image": "https://i.imgur.com/ZewfChk.png",
+      "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/hamburguesa_1_tvcgne.png",
       "type": "Almuerzo",
       "dateEntry": "2022-05-19 17:14:14"
     }
