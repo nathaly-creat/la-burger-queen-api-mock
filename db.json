@@ -65,20 +65,42 @@
       "dateEntry": "2022-05-31 15:00:36",
       "dateProcessed": "2022-05-31 16:00:45",
       "totalPrice": 4000
+    },
+    {
+      "userId": 3,
+      "client": "Will",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich",
+            "price": 2500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "delivered",
+      "dateEntry": "2022-06-07 21:27:19",
+      "totalPrice": 2500,
+      "id": 3,
+      "dateProcessed": "2022-06-07 21:28:15"
     }
   ],
   "products": [
     {
       "id": 1,
       "name": "Sandwich",
-      "price": 1000,
+      "price": 2500,
       "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 2,
-      "name": "Café americano",
+      "name": "Café",
       "price": 500,
       "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
       "type": "Desayuno",
@@ -87,14 +109,14 @@
     {
       "id": 3,
       "name": "Papas",
-      "price": 800,
+      "price": 1000,
       "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 4,
-      "name": "Hamburguesa",
+      "name": "Burguer",
       "price": 3000,
       "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/hamburguesa_1_tvcgne.png",
       "type": "Almuerzo",
