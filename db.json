@@ -70,7 +70,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Sandwich de jamón y queso",
+      "name": "Sandwich",
       "price": 1000,
       "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
       "type": "Desayuno",
