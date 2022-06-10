@@ -251,12 +251,12 @@
       "id": 5
     },
     {
-      "email": "chef2.hopper@systers.xyz",
+      "email": "cheeef8.hopper@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "roles": {
         "kitchen": true
       },
-      "id": 4
+      "id": 6
     }
   ]
 }
