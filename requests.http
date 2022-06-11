@@ -28,10 +28,10 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhL
 // REQUEST PARA MODIFICAR INFORMACION DE USUARIO
 PATCH http://localhost:8080/users/6 HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDgzMDEzOCwiZXhwIjoxNjU0ODMzNzM4LCJzdWIiOiIyIn0.4nsCAbNWEoi-7LJ4CpPCj_S2UX3OrhEoWyHFChSF6vY
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDkwMTYyNywiZXhwIjoxNjU0OTA1MjI3LCJzdWIiOiIyIn0.eYp8pCR8dt7wvx9WUIEHL4AbdvsZ6jTm9hCZEb1lVSo
 
 { 
-  "email": "cheeef8.hopper@systers.xyz"
+  "email": "CHEF26.hopper@systers.xyz"
 }
 
 // REQUEST PARA VISUALIZAR PRODUCTOS
