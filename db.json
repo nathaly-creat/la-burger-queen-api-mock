@@ -258,7 +258,7 @@
     },
     {
       "email": "chef.hopper@systers.xyz",
-      "password": "$2a$10$RQ5/Gssq6AQLcl2WFVhbD.VtY6Jk.h7iMTql1s39xkpCvTk.VcwK2",
+      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "roles": {
         "kitchen": true
       },
