@@ -476,6 +476,60 @@
       "dateEntry": "2022-06-30 19:26:41",
       "totalPrice": 10500,
       "id": 13
+    },
+    {
+      "userId": 2,
+      "client": "Jhon Lenox",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich",
+            "price": 2500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 1000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 4,
+            "name": "Burguer",
+            "price": 3000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/hamburguesa_1_tvcgne.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-05-19 17:14:14"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-07-01 15:57:23",
+      "totalPrice": 7000,
+      "id": 14
     }
   ],
   "products": [
