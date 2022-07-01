@@ -159,10 +159,11 @@
           }
         }
       ],
-      "status": "delivering",
+      "status": "delivered",
       "dateEntry": "2022-06-10 17:23:31",
       "totalPrice": 11000,
-      "id": 5
+      "id": 5,
+      "dateProcessed": "2022-06-25 12:27:47"
     },
     {
       "userId": 3,
@@ -191,10 +192,290 @@
           }
         }
       ],
-      "status": "pending",
+      "status": "delivered",
       "dateEntry": "2022-06-10 17:25:02",
       "totalPrice": 7000,
-      "id": 6
+      "id": 6,
+      "dateProcessed": "2022-06-25 12:27:45"
+    },
+    {
+      "userId": 3,
+      "client": "Alesso",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich",
+            "price": 2500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 1000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "delivering",
+      "dateEntry": "2022-06-30 18:26:46",
+      "totalPrice": 4000,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "client": "Londra",
+      "products": [
+        {
+          "qty": 3,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "delivering",
+      "dateEntry": "2022-06-30 18:27:28",
+      "totalPrice": 1500,
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "client": "Kygo",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 1000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 4,
+            "name": "Burguer",
+            "price": 3000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/hamburguesa_1_tvcgne.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-05-19 17:14:14"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich",
+            "price": 2500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-06-30 18:29:04",
+      "totalPrice": 11000,
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "client": "Sam",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich",
+            "price": 2500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 5,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 1000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-06-30 18:29:30",
+      "totalPrice": 7500,
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "client": "Dua lipa",
+      "products": [
+        {
+          "qty": 5,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 1000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 4,
+          "product": {
+            "id": 4,
+            "name": "Burguer",
+            "price": 3000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/hamburguesa_1_tvcgne.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-05-19 17:14:14"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich",
+            "price": 2500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-06-30 18:30:01",
+      "totalPrice": 20000,
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "client": "Alok",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-06-30 19:12:31",
+      "totalPrice": 500,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "client": "Wisin",
+      "products": [
+        {
+          "qty": 8,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/cafe_1_j1sfpo.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 3,
+            "name": "Papas",
+            "price": 1000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/papas_1_aorox0.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 4,
+            "name": "Burguer",
+            "price": 3000,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/hamburguesa_1_tvcgne.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-05-19 17:14:14"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich",
+            "price": 2500,
+            "image": "https://res.cloudinary.com/dtaq1ip2g/image/upload/v1654613369/sanduchepng_1_tqt3ku.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-06-30 19:26:41",
+      "totalPrice": 10500,
+      "id": 13
     }
   ],
   "products": [
@@ -233,52 +514,28 @@
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
+      "email": "admin@laburguer.xyz",
+      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "roles": {
         "admin": true
       },
       "id": 1
     },
     {
-      "email": "grace.hopper@systers.xyz",
+      "email": "mesero@laburguer.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "roles": {
-        "admin": true
+        "waiter": true
       },
       "id": 2
     },
     {
-      "email": "mesero.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "roles": {
-        "waiter": true
-      },
-      "id": 3
-    },
-    {
-      "email": "chef.hopper@systers.xyz",
+      "email": "chef@laburguer.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "roles": {
         "kitchen": true
       },
-      "id": 4
-    },
-    {
-      "email": "mesero2.hopper@systers.xyz",
-      "password": "$2a$10$CO2VdAog1WIcwyaa54A3Yee84rafoG4Bjeptgk46eh/0M9zN1uP6.",
-      "roles": {
-        "waiter": true
-      },
-      "id": 5
-    },
-    {
-      "email": "admin3.hopper@systers.xyz",
-      "password": "$2a$10$lKi1XGZe09nPAeGYnpf84eADbGY.A/389DHaGQXGnCCkiZVwZBHJu",
-      "roles": {
-        "admin": true
-      },
-      "id": 6
+      "id": 3
     }
   ]
 }
