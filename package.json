@@ -1,5 +1,5 @@
 {
-  "name": "la-burger-queen-api-mock",
+  "name": "la-burger-heroku login-api-mock",
   "version": "1.0.0",
   "description": "A mock of Burger Queen API",
   "main": "index.js",
